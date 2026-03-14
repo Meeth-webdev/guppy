@@ -6,7 +6,8 @@ export default {
     input: 'src/osk.js',
     output: {name:'GuppyOSK',
 	     file:process.env.NODE_ENV === 'production' ? 'build/guppy_osk.min.js' : 'build/guppy_osk.js',
-	     format: 'iife',
+	     format: 'umd',
+         name: 'Guppy',
         },
     plugins: [
 	commonjs({
