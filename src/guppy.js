@@ -995,5 +995,5 @@ Guppy.init = function( symbols=DEFAULT_SYMBOLS ){
     document.body.appendChild(Guppy.raw_input);
     Guppy.initialised = true;
 }
-
+window.guppy = Guppy
 export default Guppy;
