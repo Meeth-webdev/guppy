@@ -290,4 +290,5 @@ GuppyOSK.prototype.attach = function(guppy, target){
     this.guppy = guppy;
     this.element = osk;
 }
+
 export default GuppyOSK;
